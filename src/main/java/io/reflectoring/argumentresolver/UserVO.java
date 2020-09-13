@@ -1,6 +1,8 @@
 package io.reflectoring.argumentresolver;
 
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class UserVO {
     public String getName() {
         return name;
@@ -21,4 +23,5 @@ public class UserVO {
     }
 
     private int age;
+
 }
